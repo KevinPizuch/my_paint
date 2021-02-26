@@ -1,0 +1,91 @@
+body{
+	background-image:url("licorne.png");
+	
+}
+#bcg{
+	position: absolute;
+	z-index: -90;
+	width: 1120px;
+	height: 800px;
+	background-color: grey;
+	border-radius: 10px;
+}
+canvas{
+	z-index: 1;
+	border: solid 1px;
+	cursor: pointer;
+	background: #fff;
+	margin: auto;
+}
+#color{
+	margin: 20px;
+	position: absolute;
+}
+
+#size{
+	margin: 20px;
+	margin-top:70px;
+	position: absolute;
+}
+
+#crayon{
+	margin: 20px;
+	margin-top:120px;
+	position: absolute;
+}
+
+#rect{
+	margin: 20px;
+	margin-top:180px;
+	position: absolute;
+}
+
+#trait{
+	margin: 20px;
+	margin-top:240px;
+	position: absolute;
+}
+
+#cercle{
+	margin: 20px;
+	margin-top:300px;
+	position: absolute;
+}
+
+#gomme{
+	margin: 20px;
+	margin-top:360px;
+	position: absolute;
+}
+
+#clear{
+	margin: 20px;
+	margin-top:500px;
+	position: absolute;
+}
+#remplir_circle{
+	position: absolute;
+	margin: 120px;
+	margin-top: 310px;
+}
+
+#remplir_rect{
+	position: absolute;
+	margin: 120px;
+	margin-top: 190px;	
+}
+#circle1{
+	position: absolute;
+	margin:60px;
+	margin-top:305px;
+}
+
+#rect1{
+	position: absolute;
+	margin:60px;
+	margin-top:185px;
+}
+
+#download{
+	margin: 20px;
+}
